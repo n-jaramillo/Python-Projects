@@ -5,8 +5,17 @@ def max_num(x, y, z):
 print(max_num(1, 6, 4))
 
 # Write a Python function called mult_list() to multiply all the numbers in a list.
-def mult_list():
-    pass
+def mult_list(lst):
+    if len(lst) != 0:
+        result = 1
+        for i in lst:
+            result *= i
+        return result
+    else:
+        return 0
+
+print(mult_list([1, 6, 4, 7]))
+print(mult_list([]))
 
 # Write a Python function called rev_string() to reverse a string.
 def rev_string():
