@@ -18,8 +18,10 @@ print(mult_list([1, 6, 4, 7]))
 print(mult_list([]))
 
 # Write a Python function called rev_string() to reverse a string.
-def rev_string():
-    pass
+def rev_string(str):
+    return str[::-1]
+
+print(rev_string("Hello World"))
 
 # Write a Python function called num_within() to check whether a number falls in a given range.
     # The function accepts the number, beginning of range, and end of range(inclusive) as arguments.
