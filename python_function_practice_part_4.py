@@ -1,6 +1,8 @@
 # Write a Python function called max_num()to find the maximum of three numbers.
-def max_num():
-    pass
+def max_num(x, y, z):
+    return max(x, y, z)
+
+print(max_num(1, 6, 4))
 
 # Write a Python function called mult_list() to multiply all the numbers in a list.
 def mult_list():
